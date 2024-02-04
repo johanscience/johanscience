@@ -1,6 +1,6 @@
-input.onButtonPressed(Button.A, function () {
+input.onButtonPressed(Button.B, function () {
     basic.showString("JOHAN")
-    basic.showIcon(IconNames.Heart)
+    basic.showIcon(IconNames.Square)
     basic.showLeds(`
         . # . # .
         # # # # #
@@ -10,6 +10,20 @@ input.onButtonPressed(Button.A, function () {
         `)
     music.playMelody("C5 B A G F E D C ", 129)
 })
+basic.showLeds(`
+    . . . . .
+    . . . . .
+    . . . . .
+    . . . . .
+    . . . . .
+    `)
+basic.showLeds(`
+    # . # # #
+    . # . . .
+    . # . # .
+    # . . . .
+    # # # . .
+    `)
 basic.forever(function () {
 	
 })
