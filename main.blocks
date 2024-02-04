@@ -1,7 +1,7 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="o[V:d/OTmuj^Fo3=)gow" x="0" y="0"><statement name="HANDLER"><block type="device_show_number" id="U`twDV!gEOx0m/m|c#_c"><value name="number"><shadow type="math_number" id="d#!n3GMpbGnhJ3[-mKT#"><field name="NUM">0</field></shadow></value></block></statement></block><block type="device_forever" id="N/-]L723PS+~Ho[r^9Cg" x="205" y="0"></block><block type="device_show_leds" id="P(]?yP:Z~vL92(K+M@7(" disabled="true" x="203" y="133"><field name="LEDS">`
-        . . . . . 
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="o[V:d/OTmuj^Fo3=)gow" x="0" y="0"></block><block type="device_forever" id="N/-]L723PS+~Ho[r^9Cg" x="156" y="115"></block><block type="device_button_event" id="*1Co!0l:i0lN.xgJlPBt" x="13" y="220"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_print_message" id="?Ty0xJ_#uWa,{9(=MX0("><value name="text"><shadow type="text" id="Me%ig0n(aK|d*D;HOL^="><field name="TEXT">JOHAN</field></shadow></value><next><block type="basic_show_icon" id="*U76wK3c=^CbFs?2Xaov"><field name="i">IconNames.Heart</field><breakpoint></breakpoint><next><block type="device_show_leds" id="P(]?yP:Z~vL92(K+M@7("><field name="LEDS">`
         . # . # . 
+        # # # # # 
         # # # # # 
         . # # # . 
         . . # . .
-        `</field></block></xml>
+        `</field><breakpoint></breakpoint><next><block type="playMelody" id="d*V*X?MikS5dueH__FFq"><value name="melody"><shadow type="melody_editor" id="*R0}A,cy;)MJ!PB%k2N3"><field name="melody">"C5 B A G F E D C "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="kUY+87ZTQ*A;*31z4xAm"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">129</field></shadow></value></block></next></block></next></block></next></block></statement></block></xml>
